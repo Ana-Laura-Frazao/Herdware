@@ -1,0 +1,101 @@
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+}
+
+body {
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+header{
+background-color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  border-top: 1px  solid white;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
+.teste{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px white;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin: 0 auto;
+grid-gap: 20px;
+grid-column: 1;
+grid-row: 2;
+}
+
+.quadro {
+background-color: white;
+border: 2px  solid black;
+max-width: 400px;
+}
+.quadro h5 {
+color: darkgoldenrod;
+}
+
+.main {
+display: grid;
+grid-template-columns: 80% 20%;
+grid-template-rows: 50% 50%;
+}
+.texto {
+grid-column: 1;
+grid-row: 1;
+}
+
+.anuncio {
+  grid-column: 2;
+  grid-row: 1/3;
+}
+
+footer {
+  background-color: rgb(134, 16, 60);
+  justify-content: center;
+  display: flex;
+  padding: 50px;
+  text-align: center;
+  text-decoration-color: aqua;
+}
